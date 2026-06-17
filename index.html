@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Дизайн интерьера</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <aside class="sidebar">
+        <img src="img/i_12.png" alt="Логотип колледжа" class="logo">
+        
+        <nav class="side-nav">
+            <a href="#about">О себе</a>
+            <a href="#achievements">Достижения</a>
+            <a href="#documents">Документы</a>
+            <a href="#works">Работы</a>
+            <a href="#citizen">Я гражданин</a>
+        </nav>
+    </aside>
+
+    
+    <main class="content">
+        
+        
+        <header class="main-header">
+            <p class="college-name">Министерство образования Свердловской области
+ГАПОУ СО «Екатеринбургский колледж транспортного строительства»</p>
+            <h1 class="portfolio-title">ПОРТФОЛИО</h1>
+            <p class="developer-name">Разработано: Самощенко Юлией Владимировной</p>
+        </header>
+
+        
+         <section id="about" class="info-section">
+            <h2>О себе</h2>
+    <div class="about-container">
+        <div class="text-block">
+            <p>Я <strong>Самощенко Юлия</strong> и являюсь студенткой 4 курса.</p>
+            <p>Живу в городе Екатеринбурге.</p>
+            <p>Учусь в Екатеринбургском колледже транспортного строительства.</p>
+            <p style="margin-top: 15px;"><strong>Специальность:</strong> 54.02.01 Дизайн (по отраслям)</p>
+            <p><strong>Освоенные программы:</strong> Adobe Photoshop, Procreate, AutoCAD, ArchiCAD, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Microsoft Paint, Microsoft Publisher, Homestyler, CorelDRAW.</p>
+            <p style="margin-top: 20px;">Дополнительно увлекаюсь всеми направлениями искусства и дизайна. Регулярно практикую рисунок (традиционный и цифровой), осваиваю новые программы и пробую себя в смежных ремёслах: лепка, анимация, архитектурное моделирование 3D.</p>
+            <p>Постоянно расширяю кругозор через профессиональные лекции, фильмы и специализированный контент в областях интерьерного дизайна, архитектуры, кинематографа, анимации и моделирования.</p>
+        </div>
+
+        <!-- Блок с фото -->
+        <div class="photo-wrapper">
+            <div class="photo-frame">
+                <img src="img/my-photo.png" alt="Юлия Самощенко"> <!-- Укажите здесь путь к вашему фото -->
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <div class="divider div-1"></div>
+
+       
+        <section id="achievements" class="info-section">
+            <h2>Достижения</h2>
+    <div class="category-block">
+        <div class="slider-container">
+            <div class="slider-track">
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ach1.jpeg" alt=""></div>
+                    <div class="card-content">
+                        
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ach2.png" alt=""></div>
+                    <div class="card-content">
+                        
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ach3.png" alt=""></div>
+                    <div class="card-content">
+                        
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn prev" onclick="scrollManual(this, -1)">←</button>
+        <button class="nav-btn next" onclick="scrollManual(this, 1)">→</button>
+    </div>
+                
+            </div>
+        </section>
+
+        <div class="divider div-2"></div>
+
+       
+        <section id="documents" class="info-section">
+            <h2>Документы</h2>
+    <div class="category-block">
+        <div class="slider-container">
+            <div class="slider-track">
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/doc1.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Диплом о дополнительном образовании</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <div class="divider div-3"></div>
+
+        
+        <section id="works" class="info-section">
+    <h2>Работы</h2>
+
+   
+    <div class="category-block">
+        <h3 class="category-title">Выполнение художественно-конструкторских проектов в материале</h3>
+        <div class="slider-container">
+            <div class="slider-track">
+                
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp1.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Группа растений - кустарников</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp2.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Фронтальная композиция на основе ритмического ряда 1</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp3.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Фронтальная композиция на основе ритмического ряда 2</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp4.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Арт-объект в стиле лофт с темой огнетушителя</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp5.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Макет - динамика</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp6.jpg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Макет - статика</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp7.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Макет - статика</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+                
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp8.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Стелаж, как граница. Волна</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/hkp9.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Плакат, нарисованный от пятна</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn prev" onclick="scrollManual(this, -1)">←</button>
+        <button class="nav-btn next" onclick="scrollManual(this, 1)">→</button>
+    </div>
+
+    
+    <div class="category-block">
+        <h3 class="category-title">Работы во время экзаменационных работ</h3>
+        <div class="slider-container">
+            <div class="slider-track">
+
+                
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ex1.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Арт-объект. ПМ 02-03</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ex2.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Арт-объект. ПМ 02-03</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ex3.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Мудборд ПМ 01</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ex4.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация ПМ 01</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/ex5.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация ПМ 01</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn prev" onclick="scrollManual(this, -1)">←</button>
+        <button class="nav-btn next" onclick="scrollManual(this, 1)">→</button>
+    </div>
+
+    
+    <div class="category-block">
+        <h3 class="category-title">Визуализации курсового проекта</h3>
+        <div class="slider-container">
+            <div class="slider-track">
+                
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz1.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz2.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz3.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz4.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz6.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz7.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz8.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/viz9.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Визуализация проекта</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn prev" onclick="scrollManual(this, -1)">←</button>
+        <button class="nav-btn next" onclick="scrollManual(this, 1)">→</button>
+    </div>
+
+    
+    <div class="category-block">
+        <h3 class="category-title">Учебные проекты</h3>
+        <div class="slider-container">
+            <div class="slider-track">
+                
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other1.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Результат малярной практики 2 курс</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other2.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Арт-объект для предприятия во время практики</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other8.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Рисунок с основами перспективы. Фрагмент колонны</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other9.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Рисунок с основами перспективы. Коллаж из вырезов журнала</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other3.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Основы проектной и компьютерной графики. Постер(Photoshop)</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other6.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Основы проектной и компьютерной графики. Постер(CorelDRAW)</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <button class="nav-btn prev" onclick="scrollManual(this, -1)">←</button>
+        <button class="nav-btn next" onclick="scrollManual(this, 1)">→</button>
+    </div>
+
+    <div class="category-block">
+        <h3 class="category-title">Личные проекты</h3>
+        <div class="slider-container">
+            <div class="slider-track">
+                
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other7.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Сборка террариума для питомца(не кота)</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other8.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Плакат</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other5.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Плакат</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other10.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Плакат</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other11.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Плакат</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/other12.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-text">Плакат</div>
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <button class="nav-btn prev" onclick="scrollManual(this, -1)">←</button>
+        <button class="nav-btn next" onclick="scrollManual(this, 1)">→</button>
+    </div>
+
+</section>
+
+        <div class="divider div-4"></div>
+
+        
+        <section id="citizen" class="info-section">
+            <h2>Я гражданин</h2>
+            <div class="category-block">
+        <div class="slider-container">
+            <div class="slider-track">
+                <div class="card active" onclick="moveSlider(this)">
+                    <div class="card-image"><img src="img/graj.jpeg" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-lines"><span></span><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+
+    </main>
+
+    <a href="#" class="back-to-top">↑</a>
+
+<script>
+
+function scrollManual(btn, direction) {
+    const categoryBlock = btn.closest('.category-block');
+    const container = categoryBlock.querySelector('.slider-container');
+    
+    
+    const step = 400; 
+    
+    container.scrollBy({ 
+        left: direction * step, 
+        behavior: 'smooth' 
+    });
+}
+
+function moveSlider(clickedCard) {
+    clickedCard.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+    });
+}
+
+const observerOptions = {
+    root: null,
+    rootMargin: '0px -45% 0px -45%', 
+    threshold: 0
+};
+
+const observerCallback = (entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const track = entry.target.closest('.slider-track');
+            track.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+            entry.target.classList.add('active');
+        }
+    });
+};
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+window.addEventListener('load', () => {
+    document.querySelectorAll('.card').forEach(card => observer.observe(card));
+});
+</script>
+
+</body>
+</html>
